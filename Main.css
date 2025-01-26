@@ -1,0 +1,46 @@
+:root {
+    --black: #000708;
+    --white: #6a34d6;
+    --cyan: #22a8e1;
+}
+
+body {
+    background: var(--bg);
+    color: var(--frontColor);
+    font-family: helvetica;
+}
+
+
+li {
+    font-family: circle;
+}
+
+.list {
+    font-family: circle;
+}
+
+
+.dark-theme {
+    --bg: var(--black);
+    --frontColor: var(--cyan);
+    --btnBg: var(--black);
+    --btnFontColor: var(--cyan);
+}
+.light-theme {
+    --bg: var(--cyan);
+    --frontColor: var(--black);
+    --btnBg: var(--cyan);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolut;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
